@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+.sidebar{
+    background-color:rgb(246, 241, 241);
+     /* width: 300px; */
+     font-family: "PT Sans Narrow", sans-serif;
+     height: 100vh;
+     transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 15px;
+   width: 300px;
+   height: 300px;
+ 
+
+   
+}
+.sidebar nav li{
+     list-style: none;
+     font-size: 30px;
+     padding: 8px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+   
+} 
+
+.main{
+     background-color: white;
+     width: 80vw;
+     
+}
+.container{
+    display: flex;
+  
+}
+.infocontainer{
+    background-color: rgb(199, 147, 15); 
+    height:45vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello{
+
+    font-size: 3em;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 25px;
+}
+.moreAbout{
+    margin-top: 12px;
+    font-size: 22px;
+}
+.buttons{
+    margin-top: 14px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 19px;
+}
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue;
+}
+
+
+
+.devpic img{
+   height: 45vh;
+     border-radius: 50%;
+}
+
+.conatactform{
+    padding-top: 100px;
+    padding: 0 30px;
+    font-family: "PT Sans Narrow", sans-serif;
+
+}
+.conatactform h1{
+    font-family: "Source Code Pro", monospace;
+    padding: 12px 0;
+ 
+    
+}
+
+.conatactform  form div{
+    
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.conatactform form div input{
+    width: 8pw;
+    border-radius: 5px;
+    margin: 4px 0 0 0 ;
+    padding: 4px;
+
+   
+}
+
+.conatactform form{
+    margin: 0 40px;
+}
+
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+
+}
+.form div {
+   width: 10px;
+}
+
+#clientemail.form-control{
+    width: 300px;
+}
+
+#clientphone.form-control{
+    width: 300px;
+}
+
+.btn.btn-sm{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.btn.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.blogitem{
+    margin: 20px;
+   font-family: "PT Sa ns Narrow", sans-serif;
+
+
+}
+
+.h2{
+    font-family: "PT Sa ns Narrow", sans-serif;
+    margin: 20px;
+    
+}
+
+.p{
+    font-family: "Source Code Pro", monospace;
+    
+}
+
+.intro h2{
+    font-family: "PT Sa ns Narrow", sans-serif;
+    margin:      12px;
+  
+
+}
+
+.intro p{
+    font-family: "PT Sa ns Narrow", sans-serif;
+
+}
+
+
+.skillcontainer {
+    padding: 12px;
+
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+
+}
+
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color:red;
+    border: 2px solid black;
+
+}
+.seven5{
+    width: 220px;
+    background-color:rgb(56, 56, 227);
+
+}
+
+.fifty{
+    width: 120px;
+    background-color:forestgreen;
+}
+.t5{
+    width: 75px;
+    background-color: rgb(149, 21, 149);
+}
+
+@media (max-width:1615px) {
+*{
+    /* background-color: darkkhaki; */
+
+}
+/* .sidebar{
+    transform:translate(-443px,0px);
+     position: absolute;
+}  */
+    
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.sidebargo{
+    transform:translate(-443px,0px);
+    position: absolute;
+
+}
+
+.cross{
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+}
+
+.buttons{
+    font-size: 10px;
+}
